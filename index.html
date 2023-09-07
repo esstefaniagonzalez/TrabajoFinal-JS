@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Joyeria Martina: somos una empresa dedicada 100% al cliente con el objetivo de ofrecer las mejores piezas de joyeria al mejor precio">
+    <meta name="keywords" content="joyeria, joyas, inicio, preguntas, comentarios, historia, contacto, redes, instagram, twitter, facebook">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Inicio | Joyeria Martina</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.20/dist/sweetalert2.all.min.js"></script>
+    
+</head>
+<body>
+  
+
+  <section>
+    <h1 id="titulo">NUESTROS PRODUCTOS</h1>
+  
+    <div class="productos">
+        <div class="producto">
+            <img src="img/anillo2.webp" alt="">
+          <h2>Anillo Hong Kong</h2>
+          <p>Precio: $3000</p>
+          <button class="agregar-carrito" data-nombre="Anillo Hong Kong " data-precio="3000">Añadir a carrito</button>
+        </div>
+    
+        <div class="producto">
+            <img src="img/pulsera1.jpg" alt="">
+          <h2>Pulsera Atenas</h2>
+          <p>Precio: $2800</p>
+          <button class="agregar-carrito" data-nombre="Pulsera Atenas" data-precio="2800">Añadir a carrito</button>
+        </div>
+    
+        <div class="producto">
+            <img src="img/collar1.webp" alt="">
+            <h2>Collar Paris</h2>
+            <p>Precio: $6200</p>
+            <button class="agregar-carrito" data-nombre="Collar Paris" data-precio="6200">Añadir a carrito</button>
+          </div>
+    
+          <div class="producto">
+            <img src="img/acc1.jpeg" alt="">
+            <h2>Scrunchies</h2>
+            <p>Precio: $1000</p>
+            <button class="agregar-carrito" data-nombre="Scrunchies" data-precio="1000">Añadir a carrito</button>
+          </div>
+    
+          <div class="producto">
+            <img src="img/anillo3.jpg" alt="">
+            <h2>Anillo Roma</h2>
+            <p>Precio: $2800</p>
+            <button class="agregar-carrito" data-nombre="Anillo Roma" data-precio="2800">Añadir a carrito</button>
+          </div>
+    
+          <div class="producto">
+            <img src="img/collar5.jpg" alt="">
+            <h2>Collar Alaska</h2>
+            <p>Precio: $5000</p>
+            <button class="agregar-carrito" data-nombre="Collar Alaska" data-precio="5000">Añadir a carrito</button>
+          </div>
+      </div>
+  </section>
+  
+    
+  <div class="carrito">
+    <h2>Carrito de Compras</h2>
+    <ul class="lista-carrito">
+    </ul>
+    <p>Total: <span class="total-carrito">$0.00</span></p>
+    <div id="comprar">
+      <button id="finalizar-compra" class="comprar">Finalizar compra</button>
+      <button id="eliminar-carrito">Eliminar Carrito</button>
+    </div>
+  </div>
+
+
+
+
+
+  
+    <h1 class="titulo-gatitos">Imágenes de Gatitos para alegrar tu dia</h1>
+    <button id="obtenerImagenBtn">Obtener imagen de gatito</button>
+    <div id="imagenGato"></div>
+  
+  
+  <script src="main.js"></script>
+
+</body>
+</html>
